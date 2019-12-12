@@ -1,11 +1,11 @@
 # Dangerous function calls
--exec
--shell_exec
--system
--passthru
--eval
--popen
--unserialize
--include
--file_put_contents
--$_COOKIE | if
+- exec
+- shell_exec
+- system
+- passthru
+- eval
+- popen
+- unserialize
+- include
+- file_put_contents
+- $_COOKIE | if
