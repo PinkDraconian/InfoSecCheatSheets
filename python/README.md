@@ -8,7 +8,7 @@ for i in range(len(encoded)):
     string = string.replace(chars_not_allowed[i], encoded[i])
 exec(string)
 ```
-Note: Sometimes, you might want to escape `'` and `"` in the string!
+Note: The transitions back only happen when the hex is in a string! You might want to escape `'` and `"` in the string!
 
 Note: Try adding more `\\`'s if it doesn't work (`\\`, `\\\\`, `\\\\\\\\`)
 
