@@ -9,6 +9,7 @@ All the cheatsheets a man ever needs and whoever reads this will be beat in extr
 
 ### Programming language
 - [PHP](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/php)
+- [Python](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/python)
 
 ### CTF
 - [Crypto](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/crypto)
