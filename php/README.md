@@ -1,5 +1,8 @@
 # [Deserialization](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/php/deserialization.md)
 
+# Characters not allowed
+- `_`:  Dots and spaces in variable names are converted to underscores. For example `<input name="a.b" />` becomes `$_REQUEST["a_b"]`. 
+
 # Dangerous function calls
 - exec
 - shell_exec
