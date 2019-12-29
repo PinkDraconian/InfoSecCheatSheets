@@ -1,4 +1,4 @@
-# [Deserialization](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/php/php.md)
+# [Deserialization](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/php/deserialization.md)
 
 # Dangerous function calls
 - exec
