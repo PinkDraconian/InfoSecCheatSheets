@@ -1,3 +1,14 @@
+# File template
+```python
+#!/usr/bin/env python3
+
+def main():
+    # CODE
+
+if __name__ == "__main__":
+    main()
+```
+
 # Characters not allowed
 Python commands can be run in hex form:
 ```python
