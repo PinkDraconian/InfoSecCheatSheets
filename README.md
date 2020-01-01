@@ -15,6 +15,7 @@ All the cheatsheets a man ever needs and whoever reads this will be beat in extr
 - [Crypto](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/crypto)
 - [Binary](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/binary)
 - [OSINT](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/OSINT)
+- [Forensics](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/forensics)
 
 ### Common
 - [SQL Injection](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/SQLinjection)
