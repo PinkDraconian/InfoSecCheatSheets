@@ -1,2 +1,3 @@
 # Defactorize to primes
-http://factordb.com
+https://www.alpertron.com.ar/ECM.HTM: Provides more info
+http://factordb.com: Larger database
