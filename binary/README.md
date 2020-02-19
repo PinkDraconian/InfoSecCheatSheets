@@ -10,9 +10,9 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
 ## General command
 `python -c "import pwn; print(STUFF)"`
 ## Addresses
-`pwn.pe32(0xdeadbeef)` becomes 0xefbeadde
+`pwn.p32(0xdeadbeef)` becomes 0xefbeadde
 
-`pwn.pe32(0xdeadbeef, endian='big')` becomes 0xdeadbeef
+`pwn.p32(0xdeadbeef, endian='big')` becomes 0xdeadbeef
 
 # [Race Condition](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/race%20condition.md)
 # [Radare2](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/radare2.md)
