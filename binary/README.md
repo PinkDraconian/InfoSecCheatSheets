@@ -2,6 +2,9 @@
 ## Checking security on binary
 Checksec: `checksec binary`
 
+## Security meaning
+**NX**: Memory is either executable or writeable but not both
+
 ## Packed binaries
 Binaries can be packed to reduce file size. These need to be unpacked for proper analysation
 - Check packing: [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml)
