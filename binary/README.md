@@ -12,6 +12,11 @@ Binaries can be packed to reduce file size. These need to be unpacked for proper
 
 When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/dealing-with-aslr-when-analyzing-malware-on-windows-8-1/) might help
 
+## 64 vs 32 bit
+- Arguments to function calls
+  - 64: Go in registers
+  - 32: Go on stack
+
 # Pwntools
 ## General command
 `python -c "import pwn; print(STUFF)"`
