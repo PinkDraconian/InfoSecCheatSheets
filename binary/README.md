@@ -29,5 +29,6 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
 
 `pwn.p32(0xdeadbeef, endian='big')` becomes 0xdeadbeef
 
+# [ROP](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/ROP.md)
 # [Race Condition](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/race%20condition.md)
 # [Radare2](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/radare2.md)
