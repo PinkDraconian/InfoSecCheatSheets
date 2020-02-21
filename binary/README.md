@@ -17,6 +17,10 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
   - 64: Go in registers
   - 32: Go on stack
 
+## Check the libraries a binary uses
+`ldd file`
+
+
 # Pwntools
 ## General command
 `python -c "import pwn; print(STUFF)"`
