@@ -41,6 +41,23 @@ Consists of 2 values:
   - The modulus n (same as in the public key), and
   - The private exponent d (calculated from the public exponent e and the factors p and q of the modulus).
 
+# Attack vectors
+## Multiple public keys
+### Common divisor
+In a strong key situation, we have `n1 = a * b` and `n2 = c * d`.
+In the case where all of these primes are unique, `gcd(n1, n2) = 1`.
+If this is not the case, then one of the primes from both keys are equal! So `n1 = a * b` and `n2 = b * c`.
+Now this gcd is b and using that we can calculate a and c and use those (p, q)
+In python it looks like this:
+```python
+n1 = ...
+n2 = ...
+greatest_common_divisor = math.gcd(n1, n2)
+q = greatest_common_divisor
+p = n2 // greatest_common_divisor
+phi = (p - 1) * (q - 1)
+```
+
 # Unique features
 ## Multiprime RSA
 When the modulus (n) defactors into more than 2 primes, we can still calculate phi / Eulers totient using: https://www.alpertron.com.ar/ECM.HTM
