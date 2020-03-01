@@ -6,3 +6,7 @@
 ## Attack vectors
 ### Repeating XOR key
 Bruteforce keys: `https://github.com/laconicwolf/crypto-tools`
+
+Manually finding keys:
+
+  Find the most likely keylength (xortool) and for each iteration of that key (n * keylength), check what xor would result in that becoming a valid char. Do that for every one and then you could get a proper key.
