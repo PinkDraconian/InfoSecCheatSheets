@@ -5,7 +5,9 @@
 - net username
 
 # NTFS Multiple data streams
-- `Get-Item -Path "Debug Mode Password.txt" -Stream *`: Use to view streams in file
-- `Get-Content -Path "Debug Mode Password.txt" -Stream Password`: Use to get data from stream
-
-Note: This will only work on Windows machines since FAT doesn't allow multiple streams. Files downloaded using impacket/smbclient won't keep their alternate stream data either
+## Windows
+- `Get-Item -Path "FILE" -Stream *`: Use to view streams in file
+- `Get-Content -Path "FILE" -Stream Password`: Use to get data from stream
+## Linux
+- `smbclient -U <USERNAME> //<IP>/<SHARE> -c 'allinfo "<Path\To\File>"'`: Use to view streams in file
+- In SMBClient: `get <FILE>:<STREAM>:$DATA`: Use to get data from stream
