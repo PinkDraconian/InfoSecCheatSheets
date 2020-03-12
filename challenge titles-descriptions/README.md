@@ -7,4 +7,4 @@
 - Stuffing
   - Padding
 - Whirl
-  - [Esoteric programming language](https://esolangs.org/wiki/Whirl)
+  - [Esoteric programming language Whirl](https://esolangs.org/wiki/Whirl)
