@@ -12,6 +12,7 @@ All the cheatsheets a man ever needs and whoever reads this will be beat in extr
 - [Python](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/python)
 
 ### CTF
+- [Challenge Titles/Descriptions](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/challenge%20titles-descriptions)
 - [Crypto](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/crypto)
 - [Binary](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/binary)
 - [OSINT](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/OSINT)
