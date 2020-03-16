@@ -1,3 +1,8 @@
+# Caesar
+## [Keyed caesar](http://rumkin.com/tools/cipher/caesar-keyed.php)
+Caesar with a key where the key modifies the used alphabet
+
+
 # [UU encoding](https://en.wikipedia.org/wiki/Uuencoding)
 Example: 
 ```
