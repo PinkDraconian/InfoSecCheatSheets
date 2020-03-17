@@ -32,6 +32,7 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
 # Printf
 ## Format vulnerability
 Whenever the user can input the first argument (`printf(user_input)`), we can leak memory using `%x` as input
+
 See: [A simple Format String exploit example](https://www.youtube.com/watch?v=0WvrSfcdq1I) by LiveOverflow
 
 # [ROP](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/ROP.md)
