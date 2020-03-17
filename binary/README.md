@@ -29,6 +29,11 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
 
 `pwn.p32(0xdeadbeef, endian='big')` becomes 0xdeadbeef
 
+# Printf
+## Format vulnerability
+Whenever the user can input the first argument (`printf(user_input)`), we can leak memory using `%x` as input
+See: [A simple Format String exploit example](https://www.youtube.com/watch?v=0WvrSfcdq1I) by LiveOverflow
+
 # [ROP](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/ROP.md)
 # [Race Condition](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/race%20condition.md)
 # [Radare2](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/binary/radare2.md)
