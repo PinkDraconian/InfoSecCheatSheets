@@ -2,6 +2,7 @@
 
 # Characters not allowed
 - `_`:  Dots and spaces in variable names are converted to underscores. For example `<input name="a.b" />` becomes `$_REQUEST["a_b"]`. 
+- `array["key"]`: Can use `array{key}`
 
 # Dangerous function calls
 - exec
