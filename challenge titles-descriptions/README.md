@@ -1,13 +1,16 @@
 # Keywords
-
-- Time
-  - Time based attack
-- Delphi
-  - Oracle
-- Stuffing
-  - Padding
-- Whirl
-  - [Esoteric programming language Whirl](https://esolangs.org/wiki/Whirl)
 - Blind
   - [Whitespace interpreter](https://vii5ard.github.io/whitespace/)
   - Braille
+- Delphi
+  - Oracle
+- Extraordinary
+  - XOR
+- Sleep
+  - Knapsack \[Crypto\]
+- Stuffing
+  - Padding
+- Time
+  - Time based attack
+- Whirl
+  - [Esoteric programming language Whirl](https://esolangs.org/wiki/Whirl)
