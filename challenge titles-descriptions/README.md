@@ -6,8 +6,10 @@
   - Oracle
 - Extraordinary
   - XOR
+- Fair play
+  - Playfair cipher
 - Sleep
-  - Knapsack \[Crypto\]
+  - Knapsack cryptosystem
 - Stuffing
   - Padding
 - Time
