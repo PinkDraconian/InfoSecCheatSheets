@@ -57,6 +57,9 @@ q = greatest_common_divisor
 p = n2 // greatest_common_divisor
 phi = (p - 1) * (q - 1)
 ```
+## Small exponent
+### No mod because of small cipher
+When the ciphertext and exponent are small, and n is very big, `pow(c, e)` might be equal to `pow(c, e, n)`, meaning that you can bruteforce character per character.
 
 # Unique features
 ## Multiprime RSA
