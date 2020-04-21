@@ -1,3 +1,9 @@
+# JavaScript
+## JSFuck
+Looks like: `[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!!`
+
+Can be deconfuscated: https://enkhee-osiris.github.io/Decoder-JSFuck/
+
 # JWT tokens
 ## Attack vectors
 ### Asymetric RS -> HS ([example](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/january/jwt-attack-walk-through/))
