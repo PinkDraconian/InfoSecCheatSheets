@@ -20,6 +20,9 @@ When unpacked binaries don't behave properly, [this](https://www.sans.org/blog/d
 ## Check the libraries a binary uses
 `ldd file`
 
+## Exploit not working on Ubuntu 18.04 remote?
+Try to add or remove 8 bytes to fix the stack offset (https://youtu.be/E8Ykh-UC2f0?t=1156)
+
 
 # Pwntools
 ## General command
