@@ -10,6 +10,8 @@
   - Playfair cipher
 - Sleep
   - Knapsack cryptosystem
+- Space
+  - [Slow Scan television (SSTV)](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04): a picture transmission method used mainly by amateur radio operators, to transmit and receive static pictures via radio in monochrome or color. The Apollo TV cameras used SSTV to transmit images from inside Apollo 7, Apollo 8, and Apollo 9, as well as the Apollo 11 Lunar Module television from the Moon.
 - Stuffing
   - Padding
 - Time
