@@ -64,9 +64,7 @@ When the ciphertext and exponent are small, and n is very big, `pow(c, e)` might
 ### [Chosen Ciphertext Attack](https://crypto.stackexchange.com/questions/2323/how-does-a-chosen-plaintext-attack-on-rsa-work)
 When an oracle decrypts messages for us, we can do the following to decrypt any given message:
 ```python
-n =
-e =
-ct = 
+n = ... e = ... ct = ...
 ct_a = pow(2, e, n)
 ct_b = ct * ct_a
 print(ct_b)
