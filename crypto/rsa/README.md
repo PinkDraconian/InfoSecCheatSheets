@@ -12,7 +12,7 @@ def main():
 
 	# Defactorize n
 	p =
-    q =
+    	q =
 
 	# Calculate d
 	phi = (p - 1) * (q - 1)
