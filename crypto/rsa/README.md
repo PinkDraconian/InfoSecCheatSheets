@@ -61,6 +61,21 @@ phi = (p - 1) * (q - 1)
 ### No mod because of small cipher
 When the ciphertext and exponent are small, and n is very big, `pow(c, e)` might be equal to `pow(c, e, n)`, meaning that you can bruteforce character per character.
 
+## Oracle
+### [Chosen Ciphertext Attack](https://crypto.stackexchange.com/questions/2323/how-does-a-chosen-plaintext-attack-on-rsa-work)
+When an oracle decrypts messages for us, we can do the following to decrypt any given message:
+```python
+n =
+e =
+ct = 
+ct_a = pow(2, e, n)
+ct_b = ct * ct_a
+print(ct_b)
+result = int(input('Result by server: '))
+print(long_to_bytes(result // 2).decode())
+```
+
+
 # Unique features
 ## Multiprime RSA
 When the modulus (n) defactors into more than 2 primes, we can still calculate phi / Eulers totient using: https://www.alpertron.com.ar/ECM.HTM
