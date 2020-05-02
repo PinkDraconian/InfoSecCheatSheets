@@ -23,6 +23,9 @@ All the cheatsheets a man ever needs and whoever reads this will be beat in extr
 ### Common
 - [SQL Injection](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/SQLinjection)
 
+### Other
+- [Passive Information Gathering](https://github.com/PinkDraconian/InfoSecCheatSheets/tree/master/passive%20information%20gathering)
+
 ## Contributing
 In order to contribute please make a **pull request**
 
