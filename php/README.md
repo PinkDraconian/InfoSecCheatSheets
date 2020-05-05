@@ -1,6 +1,7 @@
 # [Deserialization](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/php/deserialization.md)
 
 # Characters not allowed
+- No alphanum allowed: https://gist.github.com/terjanq/aa39a5a40b8d9b8a8e2a54e747715a2c
 - `_`:  Dots and spaces in variable names are converted to underscores. For example `<input name="a.b" />` becomes `$_REQUEST["a_b"]`. 
 - `array["key"]`: Can use `array{key}`
 
