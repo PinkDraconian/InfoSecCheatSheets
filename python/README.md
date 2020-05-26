@@ -3,13 +3,14 @@
 - `python3 -m http.server 80`
 - `python -m SimpleHTTPServer 80`
 
-
-# File template
+## File template
 ```python
 #!/usr/bin/env python3
 
+
 def main():
-    # CODE
+    pass
+
 
 if __name__ == '__main__':
     main()
