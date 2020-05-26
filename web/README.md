@@ -17,3 +17,7 @@ The tool [flask-unsign](https://github.com/Paradoxis/Flask-Unsign) provides us m
 - Crafting: `flask-unsign --legacy --sign --cookie '{"key":val}' --secret 'SECRET_KEY'`
 - Decoding: `flask-unsign --decode --cookie 'cookie_val'`
 - Bruteforcing: `flask-unsign --unsign --wordlist /path/to/wordlist --cookie 'cookie_val'`
+
+# Wordpress
+## WPSCAN
+`wpscan --url URL`
