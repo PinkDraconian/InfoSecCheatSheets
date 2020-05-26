@@ -1,3 +1,9 @@
+# Useful
+## Local HTTPServer
+- `python3 -m http.server 80`
+- `python -m SimpleHTTPServer 80`
+
+
 # File template
 ```python
 #!/usr/bin/env python3
