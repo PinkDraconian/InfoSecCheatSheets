@@ -37,6 +37,9 @@ Try to add or remove 8 bytes to fix the stack offset (https://youtu.be/E8Ykh-UC2
 
 `cyclic_find(b'bbbb')` finds the offset of the bytes
 
+## Debug mode
+`context.log_level = 'DEBUG'`
+
 # GDB Peda
 - Function address: `info functions <NAME>`
 
