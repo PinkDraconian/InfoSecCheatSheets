@@ -17,3 +17,6 @@ cd pink:
 
 ## Get remote SMB share in Windows
 `NET USE H: \\ip\share /USER:username password`
+
+## Get password-policy
+`crackmapexec smb --pass-pol 10.10.10.169`
