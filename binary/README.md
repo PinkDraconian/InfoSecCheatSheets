@@ -32,6 +32,10 @@ Try to add or remove 8 bytes to fix the stack offset (https://youtu.be/E8Ykh-UC2
 
 `pwn.p32(0xdeadbeef, endian='big')` becomes 0xdeadbeef
 
+## Cyclic
+`cyclic(n)` generates a cyclic string of length n
+`cyclic_find(b'bbbb')` finds the offset of the bytes
+
 # Printf
 ## Format vulnerability
 Whenever the user can input the first argument (`printf(user_input)`), we can leak memory using `%x` as input
