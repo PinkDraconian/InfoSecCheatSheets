@@ -37,6 +37,9 @@ Try to add or remove 8 bytes to fix the stack offset (https://youtu.be/E8Ykh-UC2
 
 `cyclic_find(b'bbbb')` finds the offset of the bytes
 
+# GDB Peda
+- Function address: `info functions <NAME>`
+
 # Printf
 ## Format vulnerability
 Whenever the user can input the first argument (`printf(user_input)`), we can leak memory using `%x` as input
