@@ -44,6 +44,7 @@ Try to add or remove 8 bytes to fix the stack offset (https://youtu.be/E8Ykh-UC2
 
 # GDB Peda
 - Function address: `info functions <NAME>`
+- Patterns: `pattern create <SIZE>` and `pattern search`
 
 # Printf
 ## Format vulnerability
