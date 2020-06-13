@@ -8,6 +8,8 @@ Can be deconfuscated: https://enkhee-osiris.github.io/Decoder-JSFuck/
 ## Attack vectors
 ### Asymetric RS -> HS ([example](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/january/jwt-attack-walk-through/))
 The public key is used for verification and the algorithm can be switched from RS to HS
+### JWKS Spoofing ([example](https://www.youtube.com/watch?v=KUyuvnez0ks))
+Whenever the `jku` header is being used and can make remote requests, this can be a good attack vector
 
 # Flask
 ## Crafting sessions tokens
