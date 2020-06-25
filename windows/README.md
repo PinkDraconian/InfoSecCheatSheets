@@ -2,6 +2,8 @@
 # [Local File Inclusion](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/windows/local%20file%20inclusion.md)
 # [Exploitation](https://github.com/PinkDraconian/InfoSecCheatSheets/blob/master/windows/exploitation.md)
 # SMB
+## Mount share on Linux
+`mount -t cifs -o username=guest '//10.10.10.192/profiles$' /mnt/profiles`
 ## Setting up and using SMBshare with credentials
 Local: 
 ```bash
