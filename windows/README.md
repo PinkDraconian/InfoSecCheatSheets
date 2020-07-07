@@ -22,3 +22,6 @@ cd pink:
 
 ## Get password-policy
 `crackmapexec smb --pass-pol 10.10.10.169`
+
+## Check permissions
+`smbcacls -N '//172.31.3.6/SHARE' 'Directory'`
