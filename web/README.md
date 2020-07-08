@@ -1,3 +1,7 @@
+# Scanning
+## Nikto
+- [https://github.com/sullo/nikto](Nikto) is a web server scanner
+
 # JavaScript
 ## JSFuck
 Looks like: `[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!!`
