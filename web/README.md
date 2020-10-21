@@ -3,6 +3,12 @@
 - [https://github.com/sullo/nikto](Nikto) is a web server scanner
 
 # JavaScript
+## Window object
+- Gloabal functios and variables declared with `var` become the property of the global object
+```js
+pink = "draconian";
+console.log(window.pink) // draconian
+```
 ## JSFuck
 Looks like: `[][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!!`
 
