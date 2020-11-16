@@ -8,6 +8,10 @@
   - XOR
 - Fair play
   - Playfair cipher
+- Plumbing
+  - Git Plumbing commands
+- Porcelain
+  - Git Porcelain commands
 - Sleep
   - Knapsack cryptosystem
 - Space
