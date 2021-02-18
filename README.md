@@ -1,6 +1,4 @@
 # InfoSec CheatSheets
-All the cheatsheets a man ever needs and whoever reads this will be beat in extreme heat
-
 ## List of contents
 
 ### OS
