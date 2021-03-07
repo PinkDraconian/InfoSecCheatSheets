@@ -7,6 +7,8 @@ Lowest 12 bits: `690`
 
 Find libc: `/opt/libc-database/find puts 690`
 
+Or use webinterface: https://libc.blukat.me/
+
 # Find addresses
 - In binary: `objdump -D ropme | grep puts`
 - From libc: `readelf -s libc.so.6 | grep puts`
